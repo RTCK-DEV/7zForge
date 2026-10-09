@@ -1,0 +1,45 @@
+name: 7zForge
+options:
+  bundleIdPrefix: com.rtck
+targets:
+  7zForge:
+    type: application
+    platform: macOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: Sources
+      - path: Resources
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rtck.z7forge
+        PRODUCT_NAME: 7zForge
+        SWIFT_VERSION: "6.0"
+        INFOPLIST_FILE: Sources/Info.plist
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_APP_SANDBOX: "NO"
+        ENABLE_HARDENED_RUNTIME: "NO"
+    dependencies:
+      - target: FinderExt
+        embed: true
+        codeSignOnCopy: true
+  FinderExt:
+    type: app-extension
+    platform: macOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: FinderExt
+        excludes:
+          - "*.plist"
+          - "*.entitlements"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rtck.z7forge.finderext
+        PRODUCT_NAME: FinderExt
+        SWIFT_VERSION: "6.0"
+        INFOPLIST_FILE: FinderExt/Info.plist
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_ENTITLEMENTS: FinderExt/FinderExt.entitlements
+        ENABLE_APP_SANDBOX: "NO"

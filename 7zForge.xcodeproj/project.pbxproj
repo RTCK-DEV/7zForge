@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0F056886039EA8D651DC28 /* BenchmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ACCD82EE40B4BA01B7DFA7 /* BenchmarkView.swift */; };
+		57FB8A6FC68F735A4415881B /* FinderExt.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7BC6C4070E56CC7EF641DC74 /* FinderExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6AAD3D3A82B684E7D2466FC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9602A90080E973C994BCD /* ContentView.swift */; };
+		72249738D1F11B0A8065CA9B /* CompressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA292B1ECD79671232460B2E /* CompressView.swift */; };
+		8668E1B5268F686729F0767D /* CommonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55872B1408E584F0B2DCB94 /* CommonUI.swift */; };
+		8AF37B852228E44730E4E0C1 /* License-7zip.txt in Resources */ = {isa = PBXBuildFile; fileRef = 720540FEED09DB6C3774C9A9 /* License-7zip.txt */; };
+		97077FA389E4F582BAC893C3 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 06B1ABA7DDF9C1AB2AFEA8D9 /* Shaders.metal */; };
+		9B1A460D74E7E7E6E85CD270 /* SevenZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641850C84A635C8E3404609A /* SevenZApp.swift */; };
+		A5D99226638C34063A593D23 /* GPUCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4B3581F68B10A46BF017A /* GPUCodec.swift */; };
+		B1DC195F728651C973A8F45E /* GPUBenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11635DCE68A23C0079F32E0C /* GPUBenchView.swift */; };
+		C0A376ADB7A9397B97720729 /* ExtractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793A7FAE78C3844ADE7DF82A /* ExtractView.swift */; };
+		CB6C2D1835A628EA353B6E14 /* 7zz in Resources */ = {isa = PBXBuildFile; fileRef = 39A03E3FCF4FEF8B6E40877D /* 7zz */; };
+		CE878EC881B3789364BD3422 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DD6BB1F3DCAC063C6E00A157 /* AppIcon.icns */; };
+		E055353B2E70BF3B1A95E6AB /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6732BB36167AF31362738 /* FinderSync.swift */; };
+		E9E61620225FC3CC8D01F1CE /* SevenZip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F52E10A6026C613C78F0F /* SevenZip.swift */; };
+		EE26DCE400BE9DDE9D13EB02 /* MCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3DF9573281885DF1A70BA /* MCPServer.swift */; };
+		F658F6250AC381287AA2425D /* SelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52201EF8F49C26F5AF85DEEF /* SelfTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884F2CF2F8C22AC381FC3041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BDE984DD9D729AAC76691D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761A54A2290B26D75FB4F2FA;
+			remoteInfo = FinderExt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D30E1361EC494F8CCF8725B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				57FB8A6FC68F735A4415881B /* FinderExt.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06B1ABA7DDF9C1AB2AFEA8D9 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		11635DCE68A23C0079F32E0C /* GPUBenchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUBenchView.swift; sourceTree = "<group>"; };
+		18A6732BB36167AF31362738 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		2CD9602A90080E973C994BCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		303F52E10A6026C613C78F0F /* SevenZip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenZip.swift; sourceTree = "<group>"; };
+		39A03E3FCF4FEF8B6E40877D /* 7zz */ = {isa = PBXFileReference; path = 7zz; sourceTree = "<group>"; };
+		4FE3DF9573281885DF1A70BA /* MCPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCPServer.swift; sourceTree = "<group>"; };
+		52201EF8F49C26F5AF85DEEF /* SelfTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfTest.swift; sourceTree = "<group>"; };
+		53ACCD82EE40B4BA01B7DFA7 /* BenchmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkView.swift; sourceTree = "<group>"; };
+		641850C84A635C8E3404609A /* SevenZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenZApp.swift; sourceTree = "<group>"; };
+		720540FEED09DB6C3774C9A9 /* License-7zip.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "License-7zip.txt"; sourceTree = "<group>"; };
+		793A7FAE78C3844ADE7DF82A /* ExtractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractView.swift; sourceTree = "<group>"; };
+		7BC6C4070E56CC7EF641DC74 /* FinderExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinderExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C4B3581F68B10A46BF017A /* GPUCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUCodec.swift; sourceTree = "<group>"; };
+		C55872B1408E584F0B2DCB94 /* CommonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUI.swift; sourceTree = "<group>"; };
+		D6A58A7B116A71488A48F693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD6BB1F3DCAC063C6E00A157 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		EA292B1ECD79671232460B2E /* CompressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressView.swift; sourceTree = "<group>"; };
+		F3B88FF9C5E3DC61C37149E4 /* 7zForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7zForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07DB234C8E7D93D0E26BCA2D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				53ACCD82EE40B4BA01B7DFA7 /* BenchmarkView.swift */,
+				C55872B1408E584F0B2DCB94 /* CommonUI.swift */,
+				EA292B1ECD79671232460B2E /* CompressView.swift */,
+				2CD9602A90080E973C994BCD /* ContentView.swift */,
+				793A7FAE78C3844ADE7DF82A /* ExtractView.swift */,
+				11635DCE68A23C0079F32E0C /* GPUBenchView.swift */,
+				83C4B3581F68B10A46BF017A /* GPUCodec.swift */,
+				D6A58A7B116A71488A48F693 /* Info.plist */,
+				4FE3DF9573281885DF1A70BA /* MCPServer.swift */,
+				52201EF8F49C26F5AF85DEEF /* SelfTest.swift */,
+				641850C84A635C8E3404609A /* SevenZApp.swift */,
+				303F52E10A6026C613C78F0F /* SevenZip.swift */,
+				06B1ABA7DDF9C1AB2AFEA8D9 /* Shaders.metal */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		267106D8AED56F9D4CA3C344 = {
+			isa = PBXGroup;
+			children = (
+				F973E70BE37725E885D6C4BF /* FinderExt */,
+				9720D464C4DB93252AA2128E /* Resources */,
+				07DB234C8E7D93D0E26BCA2D /* Sources */,
+				780E0AA1B54A46B78DD07EE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		780E0AA1B54A46B78DD07EE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B88FF9C5E3DC61C37149E4 /* 7zForge.app */,
+				7BC6C4070E56CC7EF641DC74 /* FinderExt.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9720D464C4DB93252AA2128E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39A03E3FCF4FEF8B6E40877D /* 7zz */,
+				DD6BB1F3DCAC063C6E00A157 /* AppIcon.icns */,
+				720540FEED09DB6C3774C9A9 /* License-7zip.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F973E70BE37725E885D6C4BF /* FinderExt */ = {
+			isa = PBXGroup;
+			children = (
+				18A6732BB36167AF31362738 /* FinderSync.swift */,
+			);
+			path = FinderExt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		761A54A2290B26D75FB4F2FA /* FinderExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714E5C70D83C26601100E495 /* Build configuration list for PBXNativeTarget "FinderExt" */;
+			buildPhases = (
+				8FC8F793D7BB35C57622510A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinderExt;
+			packageProductDependencies = (
+			);
+			productName = FinderExt;
+			productReference = 7BC6C4070E56CC7EF641DC74 /* FinderExt.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7B89E00C311284932D80A70C /* 7zForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165C727A07A2B9DB932AD5EC /* Build configuration list for PBXNativeTarget "7zForge" */;
+			buildPhases = (
+				9041068872AD338732AF04A9 /* Sources */,
+				0A07C1050E4F618FDC040E52 /* Resources */,
+				3D30E1361EC494F8CCF8725B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FB5F22E24031CAA3EA8C1BD /* PBXTargetDependency */,
+			);
+			name = 7zForge;
+			packageProductDependencies = (
+			);
+			productName = 7zForge;
+			productReference = F3B88FF9C5E3DC61C37149E4 /* 7zForge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BDE984DD9D729AAC76691D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = CC47A5A9DDD58F29A0299F0A /* Build configuration list for PBXProject "7zForge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 267106D8AED56F9D4CA3C344;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 780E0AA1B54A46B78DD07EE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B89E00C311284932D80A70C /* 7zForge */,
+				761A54A2290B26D75FB4F2FA /* FinderExt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A07C1050E4F618FDC040E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6C2D1835A628EA353B6E14 /* 7zz in Resources */,
+				CE878EC881B3789364BD3422 /* AppIcon.icns in Resources */,
+				8AF37B852228E44730E4E0C1 /* License-7zip.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC8F793D7BB35C57622510A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E055353B2E70BF3B1A95E6AB /* FinderSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9041068872AD338732AF04A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F056886039EA8D651DC28 /* BenchmarkView.swift in Sources */,
+				8668E1B5268F686729F0767D /* CommonUI.swift in Sources */,
+				72249738D1F11B0A8065CA9B /* CompressView.swift in Sources */,
+				6AAD3D3A82B684E7D2466FC6 /* ContentView.swift in Sources */,
+				C0A376ADB7A9397B97720729 /* ExtractView.swift in Sources */,
+				B1DC195F728651C973A8F45E /* GPUBenchView.swift in Sources */,
+				A5D99226638C34063A593D23 /* GPUCodec.swift in Sources */,
+				EE26DCE400BE9DDE9D13EB02 /* MCPServer.swift in Sources */,
+				F658F6250AC381287AA2425D /* SelfTest.swift in Sources */,
+				9B1A460D74E7E7E6E85CD270 /* SevenZApp.swift in Sources */,
+				E9E61620225FC3CC8D01F1CE /* SevenZip.swift in Sources */,
+				97077FA389E4F582BAC893C3 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FB5F22E24031CAA3EA8C1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761A54A2290B26D75FB4F2FA /* FinderExt */;
+			targetProxy = 884F2CF2F8C22AC381FC3041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AD5206BB1EC8B2C95972516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rtck.z7forge;
+				PRODUCT_NAME = 7zForge;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		6259805AEE19E8E0AFC8E237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rtck.z7forge;
+				PRODUCT_NAME = 7zForge;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C0B4E9F9910329A36C084321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CC88D55D896CA57B30E6B24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D6A7E8E59B465DE7BB2DC8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FinderExt/FinderExt.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = FinderExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rtck.z7forge.finderext;
+				PRODUCT_NAME = FinderExt;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		DFC762F9758EE9C231104E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FinderExt/FinderExt.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = FinderExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rtck.z7forge.finderext;
+				PRODUCT_NAME = FinderExt;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		165C727A07A2B9DB932AD5EC /* Build configuration list for PBXNativeTarget "7zForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6259805AEE19E8E0AFC8E237 /* Debug */,
+				2AD5206BB1EC8B2C95972516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		714E5C70D83C26601100E495 /* Build configuration list for PBXNativeTarget "FinderExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A7E8E59B465DE7BB2DC8A9 /* Debug */,
+				DFC762F9758EE9C231104E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC47A5A9DDD58F29A0299F0A /* Build configuration list for PBXProject "7zForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC88D55D896CA57B30E6B24F /* Debug */,
+				C0B4E9F9910329A36C084321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BDE984DD9D729AAC76691D6 /* Project object */;
+}
